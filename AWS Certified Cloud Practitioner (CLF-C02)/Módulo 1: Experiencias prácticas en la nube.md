@@ -1,4 +1,4 @@
-# Laboratorios Módulo 1: Conceptos de la nube
+#  Módulo 1 Conceptos de la nube - Laboratorios
 
 ## 1.1 Beneficios de la nube de AWS
 
