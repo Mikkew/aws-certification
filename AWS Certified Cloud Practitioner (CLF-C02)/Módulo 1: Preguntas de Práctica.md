@@ -1,4 +1,4 @@
-# Módulo 1: Conceptos de la nube
+# Módulo 1: Preguntas de Práctica
 
 ## 1.1 Beneficios de la nube de AWS
 
