@@ -1,717 +1,576 @@
-# Módulo 1: Preguntas de Práctica
+# Módulo 1: Conceptos de la nube
 
 ## 1.1 Beneficios de la nube de AWS
 
-### Pregunta 1 (Opción múltiple)
-Una empresa necesita desplegar una aplicación web orientada a usuarios en Asia, Europa y América con tiempos de respuesta mínimos. ¿Qué ventaja de la nube de AWS permite lograr este objetivo rápidamente?
-- A) Aumentar la velocidad y agilidad
-- B) Volverse global en minutos
-- C) Cambiar gastos de capital por gastos operativos
-- D) Dejar de adivinar la capacidad
+### Pregunta 1
+¿Qué ventaja de la nube de AWS permite a las organizaciones desplegar aplicaciones en múltiples Regiones alrededor del mundo con solo unos clics para ofrecer menor latencia a sus usuarios?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-La ventaja de **volverse global en minutos** permite desplegar aplicaciones en múltiples Regiones de AWS alrededor del mundo con solo unos clics, reduciendo la latencia para los usuarios finales. La opción A se refiere al rápido aprovisionamiento de recursos de desarrollo; la C al modelo financiero; y la D a la flexibilidad de escalado.
+- [ ] A. Volverse global en minutos  
+- [ ] B. Aumentar la velocidad y la agilidad  
+- [ ] C. Cambiar gastos de capital por gastos operativos  
+- [ ] D. Dejar de adivinar la capacidad  
 
 ---
 
-### Pregunta 2 (Opción múltiple)
-¿Qué concepto describe la capacidad de un sistema en la nube para ajustar automáticamente sus recursos informáticos en respuesta a fluctuaciones en la demanda en tiempo real?
-- A) Escalabilidad
-- B) Alta disponibilidad
-- C) Elasticidad
-- D) Tolerancia a fallos
+### Pregunta 2
+¿Qué concepto describe la capacidad de la infraestructura de AWS para aumentar o reducir recursos automáticamente según la demanda medida en tiempo real?
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-La **elasticidad** es la capacidad de aumentar o reducir recursos automáticamente según sea necesario para coincidir con la demanda real. La escalabilidad (A) es la capacidad de acomodar mayores cargas reforzando hardware o añadiendo nodos; la alta disponibilidad (B) y tolerancia a fallos (D) garantizan que el sistema permanezca operativo ante fallas.
+- [ ] A. Escalabilidad vertical  
+- [ ] B. Alta disponibilidad  
+- [ ] C. Elasticidad  
+- [ ] D. Tolerancia a fallos  
 
 ---
 
-### Pregunta 3 (Opción múltiple)
-¿Cuál es un beneficio directo de sustituir los gastos de capital (CapEx) por gastos operativos variables (OpEx) en AWS?
-- A) AWS asume la responsabilidad total de las configuraciones de seguridad del cliente.
-- B) Las organizaciones pagan únicamente por los recursos informáticos consumidos sin realizar inversiones iniciales en hardware.
-- C) Los costos de transferencia de datos de salida se vuelven completamente gratuitos.
-- D) Se eliminan los contratos de soporte técnico.
+### Pregunta 3
+¿Cuál es un beneficio financiero clave de sustituir los gastos de capital (CapEx) por gastos operativos variables (OpEx) en AWS?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-Cambiar CapEx por OpEx implica pagar bajo demanda por lo que se utiliza en lugar de invertir capital por adelantado en la compra de centros de datos y servidores físicos. La opción A contradice el modelo de responsabilidad compartida; la C es falsa ya que la transferencia de datos hacia afuera tiene costo; y la D no está relacionada.
+- [ ] A. Pagar tarifas fijas por adelantado para cubrir los servidores físicos durante 5 años.  
+- [ ] B. Pagar únicamente por los recursos informáticos consumidos sin realizar inversiones iniciales en hardware.  
+- [ ] C. Obtener una exención total del pago por la transferencia de datos saliente hacia Internet.  
+- [ ] D. Garantizar que todos los servicios de AWS sean gratuitos durante el primer año.  
 
 ---
 
-### Pregunta 4 (Opción múltiple)
-¿Qué beneficio de AWS permite a las startups probar rápidamente nuevas ideas de negocios aprovisionando servidores en cuestión de segundos?
-- A) Economías de escala masivas
-- B) Alta disponibilidad
-- C) Aumentar la velocidad y la agilidad
-- D) Replicación entre regiones
+### Pregunta 4
+¿Qué beneficio de la nube de AWS permite a los equipos de desarrollo reducir el tiempo de aprovisionamiento de recursos de semanas a solo minutos, facilitando la experimentación rápida?
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-Aumentar la velocidad y la agilidad permite que los recursos tecnológicos estén disponibles para los desarrolladores en minutos en lugar de semanas, facilitando la experimentación rápida y la innovación. Las economías de escala (A) reducen precios; la alta disponibilidad (B) evita caídas; y la replicación (D) es un mecanismo de resiliencia.
+- [ ] A. Economías de escala masivas  
+- [ ] B. Aumentar la velocidad y la agilidad  
+- [ ] C. Reducción de la latencia física  
+- [ ] D. Desacoplamiento de componentes  
 
 ---
 
-### Pregunta 5 (Opción múltiple)
-Una organización desea reducir los costos derivados del mantenimiento físico, aire acondicionado y electricidad de sus propios centros de datos. ¿Qué ventaja de la nube de AWS aborda directamente esta necesidad?
-- A) Dejar de gastar dinero en el funcionamiento y mantenimiento de centros de datos
-- B) Volverse global en minutos
-- C) Descuentos por uso reservado
-- D) Arquitecturas desacopladas
+### Pregunta 5
+Una empresa quiere evitar los costos fijos asociados al alquiler del edificio, electricidad, enfriamiento y mantenimiento de su centro de datos local. ¿Qué ventaja de la nube responde directamente a esto?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-AWS se encarga de administrar y mantener el hardware físico y la infraestructura de los centros de datos, lo que permite a los clientes enfocar sus recursos financieros y humanos en proyectos de negocio. Las demás opciones son características técnicas o financieras diferentes.
+- [ ] A. Dejar de gastar dinero en el funcionamiento y mantenimiento de los centros de datos  
+- [ ] B. Volverse global en minutos  
+- [ ] C. Pago reservado a 3 años  
+- [ ] D. Arquitecturas multirregión  
 
 ---
 
-### Pregunta 6 (Opción múltiple)
-¿Cómo ayuda AWS a resolver el problema de adivinar las necesidades de capacidad de infraestructura?
-- A) Obligando a comprar servidores físicos con margen de exceso del 50%.
-- B) Permitiendo escalar los recursos automáticamente hacia arriba o hacia abajo según el uso real medido.
-- C) Asignando capacidades fijas e inmutables durante contratos anuales.
-- D) Generando reportes predictivos que previenen todo tipo de tráfico inusual.
+### Pregunta 6
+¿De qué manera la nube de AWS resuelve el problema tradicional de adivinar las necesidades de capacidad de infraestructura?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-En la nube de AWS se elimina la adivinación de la capacidad porque los recursos se escalan elásticamente según la demanda real del tráfico. Forzar compras (A) o fijar capacidades (C) representa el modelo tradicional On-Premises.
+- [ ] A. Obligando a comprar servidores físicos con un margen de reserva del 50%.  
+- [ ] B. Permitiendo escalar elásticamente los recursos según el uso real medido.  
+- [ ] C. Asignando límites de CPU fijos e inmutables.  
+- [ ] D. Generando estimaciones automáticas que impiden el crecimiento de tráfico.  
 
 ---
 
-### Pregunta 7 (Opción múltiple)
-¿Qué característica de la infraestructura global de AWS garantiza que los recursos desplegados en una Zona de Disponibilidad (AZ) estén protegidos frente a desastres físicos que afecten a otra zona?
-- A) Aislamiento físico y redes independientes de energía y conectividad entre AZs.
-- B) Compartición de la misma fuente de energía eléctrica entre todas las AZs de una Región.
-- C) Ubicación de todas las AZs en un mismo edificio central.
-- D) Conexión exclusiva a través de Internet público sin fibra dedicada.
+### Pregunta 7
+¿Qué característica de la infraestructura global de AWS garantiza que los recursos en una Zona de Disponibilidad (AZ) estén protegidos ante desastres físicos en otra zona de la misma Región?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-Cada Zona de Disponibilidad (AZ) consta de uno o varios centros de datos discretos equipados con energía, enfriamiento y conectividad independientes, situados a una distancia física que los aísla de desastres comunes. Las opciones B y C romperían la tolerancia a fallas.
+- [ ] A. Compartir la misma fuente de energía eléctrica entre todas las AZs de la Región.  
+- [ ] B. Aislamiento físico independiente con energía, enfriamiento y redes separadas entre AZs.  
+- [ ] C. Ubicar todas las AZs en un mismo centro de datos centralizado.  
+- [ ] D. Conexión exclusiva a través de líneas telefónicas públicas sin fibra propia.  
 
 ---
 
-### Pregunta 8 (Opción múltiple)
-¿Qué término describe un entorno informático que combina infraestructura física local (On-Premises) con servicios en la nube pública de AWS?
-- A) Nube privada pura
-- B) Nube híbrida
-- C) Infraestructura Serverless
-- D) Multisitio en caliente
+### Pregunta 8
+¿Qué modelo de despliegue conecta la infraestructura física local (On-Premises) de una empresa con los recursos de la nube de AWS para extender sus capacidades?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El modelo de **nube híbrida** permite a las empresas mantener ciertos activos o datos sensibles en servidores locales mientras extienden sus capacidades con la flexibilidad de la nube pública. La nube privada (A) no utiliza servicios públicos; Serverless (C) es un paradigma de cómputo.
+- [ ] A. Nube privada pura  
+- [ ] B. Nube híbrida  
+- [ ] C. Modelo Serverless  
+- [ ] D. Despliegue multiusuario aislado  
 
 ---
 
-### Pregunta 9 (Opción múltiple)
+### Pregunta 9
 ¿Cuál es la función principal de las ubicaciones de borde (Edge Locations) dentro de la infraestructura global de AWS?
-- A) Ejecutar bases de datos relacionales de producción.
-- B) Almacenar copias de seguridad de larga duración.
-- C) Entregar contenido con menor latencia a los usuarios finales mediante caché local.
-- D) Alojar la Consola de Administración de AWS.
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-Las ubicaciones de borde (Edge Locations) forman parte de la red global de entrega de contenido (como Amazon CloudFront) y sirven datos en caché cerca de los usuarios finales para minimizar la latencia.
+- [ ] A. Ejecutar bases de datos relacionales en clústeres principales.  
+- [ ] B. Servir contenido en caché más cerca de los usuarios finales para reducir la latencia.  
+- [ ] C. Almacenar copias de seguridad de larga duración en S3 Glacier.  
+- [ ] D. Administrar las cuentas de usuario en IAM.  
 
 ---
 
-### Pregunta 10 (Opción múltiple)
-¿Qué beneficio se logra cuando los precios de AWS disminuyen debido a la compra masiva de infraestructura por parte de millones de clientes?
-- A) Elasticidad vertical
-- B) Economías de escala masivas
-- C) Precios fijos por suscripción
-- D) Autoservicio bajo demanda
+### Pregunta 10
+¿Qué principio explica por qué los precios de los servicios de AWS disminuyen continuamente a medida que crece el número de clientes que utilizan la plataforma?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-Gracias al uso acumulado de cientos de miles de clientes, AWS logra ahorros operativos de gran escala que se traducen en reducciones continuas de precios para los usuarios.
+- [ ] A. Economías de escala masivas  
+- [ ] B. Autoservicio bajo demanda  
+- [ ] C. Tolerancia a fallos por defecto  
+- [ ] D. Asignación estática de recursos  
 
 ---
 
-### Pregunta 11 (Opción múltiple)
-¿Qué característica de la computación en la nube permite a los usuarios aprovisionar servidores y almacenamiento de forma autónoma sin requerir intervención humana del proveedor?
-- A) Amplio acceso a la red
-- B) Autoservicio bajo demanda
-- C) Agrupación de recursos
-- D) Tolerancia a fallos por defecto
+### Pregunta 11 (SELECCIONA DOS)
+¿Cuáles de las siguientes son ventajas clave de la computación en la nube de AWS?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El **autoservicio bajo demanda** (*On-demand self-service*) permite a los usuarios aprovisionar capacidades informáticas (como tiempo de servidor o almacenamiento) automáticamente sin interacción humana con AWS.
+- [ ] A. Intervención manual obligatoria para aprovisionar cada servidor.  
+- [ ] B. Beneficiarse de economías de escala masivas.  
+- [ ] C. Cambiar gastos de capital (CapEx) por gastos operativos (OpEx).  
+- [ ] D. Inversión inicial fija en hardware y centro de datos.  
+- [ ] E. Almacenamiento ilimitado gratuito sin importar el volumen consumido.  
 
 ---
 
-### Pregunta 12 (Opción múltiple)
-¿Cuál es la diferencia fundamental entre escalabilidad e hiper-elasticidad en la nube?
-- A) La escalabilidad requiere apagar los servidores; la elasticidad no.
-- B) La escalabilidad aumenta la capacidad para absorber cargas mayores; la elasticidad incrementa o reduce recursos automáticamente adaptándose a la demanda cambiante.
-- C) La elasticidad solo aplica a bases de datos; la escalabilidad solo a redes.
-- D) No existe diferencia; ambos términos significan exactamente lo mismo.
+### Pregunta 12 (SELECCIONA DOS)
+¿Qué características definen a una Zona de Disponibilidad (AZ) en AWS?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-La escalabilidad permite acomodar mayores volúmenes de trabajo añadiendo potencia o nodos, mientras que la elasticidad enfatiza la capacidad dinámica de reducir o aumentar recursos en tiempo real según la demanda medida.
+- [ ] A. Consta de uno o varios centros de datos discretos con energía y conectividad redundantes.  
+- [ ] B. Se encuentra dentro del mismo edificio físico que las demás AZs de la Región.  
+- [ ] C. Están conectadas entre sí mediante redes de fibra óptica de latencia ultrabaja.  
+- [ ] D. Son puntos de presencia diseñados únicamente para almacenar objetos de S3 Glacier.  
+- [ ] E. Es compartida físicamente de manera idéntica entre todas las regiones del mundo.  
 
 ---
 
-### Pregunta 13 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles de las siguientes opciones son ventajas clave de la computación en la nube de AWS? (Selecciona dos)
-- A) Intervención manual obligatoria para cada actualización de software.
-- B) Beneficiarse de economías de escala masivas.
-- C) Reemplazar gastos operativos por inversiones de capital fijas.
-- D) Aumentar la velocidad y la agilidad en la entrega de aplicaciones.
-- E) Garantía de costo cero en todos los servicios de almacenamiento.
+### Pregunta 13 (SELECCIONA DOS)
+¿Cuáles son dos de los tres fundamentos principales de precios en el modelo de pago por uso de AWS?
 
-**Respuestas correctas:** B y D
-
-**Explicación breve:**
-Las 6 ventajas del cloud incluyen beneficiarse de economías de escala masivas (B) y aumentar la velocidad y agilidad (D). La C es incorrecta porque se cambia CapEx por OpEx; la A contradice la automatización y autoservicio.
-
----
-
-### Pregunta 14 (Respuesta múltiple - SELECCIONA DOS)
-¿Qué características definen a una Zona de Disponibilidad (AZ) de AWS? (Selecciona dos)
-- A) Consta de uno o varios centros de datos discretos con alimentación y conectividad redundantes.
-- B) Se encuentra ubicada dentro de la misma instalación física que las demás AZs de la Región.
-- C) Está conectada con otras AZs de la misma Región mediante redes de latencia ultrabaja.
-- D) Representa un punto de presencia exclusivo para la entrega de correos con SES.
-- E) Es compartida de forma idéntica entre todas las cuentas de AWS sin aislamiento.
-
-**Respuestas correctas:** A y C
-
-**Explicación breve:**
-Cada AZ está compuesta por uno o varios centros de datos aislados (A) e interconectados entre sí dentro de la Región mediante redes redundantes de alto ancho de banda y latencia ultrabaja (C).
-
----
-
-### Pregunta 15 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles son dos de los tres fundamentos principales de precios en el modelo de pago por uso de AWS? (Selecciona dos)
-- A) Tiempo de cómputo consumido.
-- B) Solicitudes de soporte técnico enviadas.
-- C) Almacenamiento de datos mantenido en la nube.
-- D) Transferencia de datos entrante (Data Transfer IN).
-- E) Número de usuarios creados en la consola de IAM.
-
-**Respuestas correctas:** A y C
-
-**Explicación breve:**
-Los 3 fundamentos de cobro en AWS son: Cómputo (A), Almacenamiento (C) y Transferencia de datos SALIENTE (Data Transfer OUT). La transferencia entrante (D) es gratuita.
+- [ ] A. Tiempo de cómputo consumido.  
+- [ ] B. Número de políticas de seguridad creadas.  
+- [ ] C. Almacenamiento mantenido en la nube.  
+- [ ] D. Transferencia de datos entrante hacia AWS (Data Transfer IN).  
+- [ ] E. Cantidad de usuarios registrados en la consola de administración.  
 
 ---
 
 ## 1.2 Principios de diseño (Well-Architected)
 
-### Pregunta 16 (Opción múltiple)
+### Pregunta 14
 ¿Cuál pilar del AWS Well-Architected Framework se centra en la capacidad de ejecutar sistemas para ofrecer valor empresarial al precio más bajo posible?
-- A) Eficiencia del rendimiento
-- B) Sostenibilidad
-- C) Optimización de costos
-- D) Excelencia operativa
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-El pilar de **Optimización de costos** (*Cost Optimization*) se enfoca en ejecutar sistemas con la máxima eficiencia financiera y al precio más bajo de operación.
+- [ ] A. Eficiencia del rendimiento  
+- [ ] B. Sostenibilidad  
+- [ ] C. Optimización de costos  
+- [ ] D. Excelencia operativa  
 
 ---
 
-### Pregunta 17 (Opción múltiple)
-¿Qué principio de diseño corresponde al pilar de Seguridad del AWS Well-Architected Framework?
-- A) Utilizar arquitecturas sin servidor por defecto.
-- B) Mantener a las personas alejadas de los datos.
-- C) Maximizar la utilización de hardware físico.
-- D) Adoptar un modo de consumo.
+### Pregunta 15
+¿Qué principio de diseño pertenece al pilar de Seguridad del AWS Well-Architected Framework?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-Reducir o eliminar la necesidad de acceso directo o manual de las personas a los datos de producción es un principio clave del pilar de Seguridad para reducir riesgos de errores o accesos no autorizados. La A pertenece a Rendimiento; la C a Sostenibilidad; y la D a Optimización de Costos.
+- [ ] A. Mantener a las personas alejadas de los datos  
+- [ ] B. Utilizar únicamente servidores físicos dedicados  
+- [ ] C. Maximizar el acceso de superusuario para acelerar cambios  
+- [ ] D. Diseñar arquitecturas monolíticas inmutables  
 
 ---
 
-### Pregunta 18 (Opción múltiple)
-¿Qué herramienta disponible en la consola de AWS permite a los clientes evaluar el estado de sus cargas de trabajo en comparación con las mejores prácticas del Well-Architected Framework?
-- A) AWS Trusted Advisor
-- B) AWS Well-Architected Tool
-- C) AWS Compute Optimizer
-- D) AWS Service Catalog
+### Pregunta 16
+¿Qué herramienta en la consola de AWS permite a los clientes evaluar sus cargas de trabajo frente a los 6 pilares del Well-Architected Framework y recibir un plan de mejora?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-La **AWS Well-Architected Tool** es una herramienta gratuita en la consola que guía al usuario mediante un cuestionario sobre los 6 pilares para identificar riesgos y generar planes de mejora.
+- [ ] A. AWS Trusted Advisor  
+- [ ] B. AWS Well-Architected Tool  
+- [ ] C. AWS Compute Optimizer  
+- [ ] D. AWS Service Catalog  
 
 ---
 
-### Pregunta 19 (Opción múltiple)
-Un arquitecto de soluciones está diseñando un sistema que utiliza grupos de Auto Scaling y balanceadores de carga para absorber fallas en instancias EC2 sin interrumpir el servicio. ¿A qué pilar contribuye principalmente esta práctica?
-- A) Fiabilidad
-- B) Excelencia operativa
-- C) Sostenibilidad
-- D) Optimización de costos
+### Pregunta 17
+Un arquitecto de soluciones diseña un sistema que utiliza grupos de Auto Scaling y balanceadores de carga para absorber fallas de instancias EC2 sin degradar el servicio. ¿A qué pilar contribuye principalmente?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-El pilar de **Fiabilidad** (*Reliability*) abarca la capacidad de un sistema para recuperarse de interrupciones de infraestructura, adquirir recursos dinámicamente para satisfacer la demanda y mitigar fallas.
+- [ ] A. Fiabilidad  
+- [ ] B. Excelencia operativa  
+- [ ] C. Sostenibilidad  
+- [ ] D. Optimización de costos  
 
 ---
 
-### Pregunta 20 (Opción múltiple)
-¿Qué principio de diseño general de arquitectura recomienda dividir las aplicaciones monolíticas grandes en componentes pequeños y débilmente acoplados?
-- A) Servicios, no servidores
-- B) Acoplamiento débil (Loose coupling)
-- C) Recursos desechables
-- D) Simpatía mecánica
+### Pregunta 18
+¿Qué principio de diseño recomienda dividir aplicaciones grandes en componentes pequeños e independientes para evitar que la falla de uno afecte a los demás?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El **desacoplamiento débil** garantiza que un cambio o falla en un componente no afecte en cascada a los demás componentes del sistema.
+- [ ] A. Acoplamiento débil (Loose coupling)  
+- [ ] B. Escalabilidad monolítica  
+- [ ] C. Asignación rígida de recursos  
+- [ ] D. Simpatía mecánica  
 
 ---
 
-### Pregunta 21 (Opción múltiple)
-¿Qué pilar del Well-Architected Framework se enfoca en minimizar el impacto medioambiental derivado de la ejecución de cargas de trabajo en la nube?
-- A) Eficiencia del rendimiento
-- B) Sostenibilidad
-- C) Excelencia operativa
-- D) Seguridad
+### Pregunta 19
+¿Qué pilar del Well-Architected Framework se enfoca en minimizar el impacto ambiental del uso de energía y recursos de las cargas de trabajo en la nube?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El pilar de **Sostenibilidad** (*Sustainability*) busca reducir el consumo energético y la huella ecológica general mediante la optimización de recursos e infraestructura en la nube.
+- [ ] A. Eficiencia del rendimiento  
+- [ ] B. Sostenibilidad  
+- [ ] C. Excelencia operativa  
+- [ ] D. Seguridad  
 
 ---
 
-### Pregunta 22 (Opción múltiple)
-¿Cuál es un principio de diseño clave dentro del pilar de Excelencia Operativa?
-- A) Realizar operaciones como código.
-- B) Maximizar el acceso de superusuario para acelerar cambios.
-- C) Evitar automatizaciones para mantener control manual directo.
-- D) Mantener arquitecturas rígidas e inmutables.
+### Pregunta 20
+¿Cuál es un principio de diseño fundamental del pilar de Excelencia Operativa?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-En la excelencia operativa, definir la infraestructura y los procedimientos de operaciones como código (por ejemplo, con AWS CloudFormation) permite automatizar procesos, reducir errores humanos y probar cambios de forma segura.
+- [ ] A. Realizar operaciones como código  
+- [ ] B. Evitar la automatización para mantener control manual  
+- [ ] C. Desactivar los logs de auditoría para ahorrar memoria  
+- [ ] D. Realizar cambios grandes y no reversibles en producción  
 
 ---
 
-### Pregunta 23 (Opción múltiple)
-¿Qué servicio apoya directamente al pilar de Seguridad mediante la centralización de credenciales y la aplicación del principio de menor privilegio?
-- A) Amazon S3
-- B) AWS IAM
-- C) AWS Auto Scaling
-- D) Amazon Route 53
+### Pregunta 21
+¿Qué servicio de AWS respalda el pilar de Seguridad al gestionar identidades, roles y aplicar el principio de menor privilegio?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-**AWS Identity and Access Management (IAM)** permite gestionar usuarios, roles y permisos centralizados aplicando el principio de menor privilegio, pilar fundamental de la seguridad en AWS.
+- [ ] A. Amazon S3  
+- [ ] B. AWS IAM  
+- [ ] C. AWS Auto Scaling  
+- [ ] D. Amazon Route 53  
 
 ---
 
-### Pregunta 24 (Opción múltiple)
-Un equipo técnico utiliza **AWS Graviton** y autoescalado elástico para reducir el gasto energético y ajustar la capacidad exacta de cómputo. ¿Qué pilar están fortaleciendo explícitamente?
-- A) Excelencia operativa
-- B) Sostenibilidad
-- C) Seguridad
-- D) Fiabilidad
+### Pregunta 22
+Un equipo utiliza procesadores AWS Graviton y autoescalado para eliminar capacidad ociosa y reducir el consumo de energía. ¿Qué pilar están optimizando principalmente?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El uso de procesadores eficientes como Graviton y el autoescalado para eliminar capacidad ociosa son prácticas destacadas en las guías del pilar de Sostenibilidad.
+- [ ] A. Excelencia operativa  
+- [ ] B. Sostenibilidad  
+- [ ] C. Seguridad  
+- [ ] D. Fiabilidad  
 
 ---
 
-### Pregunta 25 (Opción múltiple)
-¿Qué principio del pilar de Eficiencia del rendimiento alienta a utilizar arquitecturas Serverless en lugar de administrar servidores virtuales directamente?
-- A) Democratizar las tecnologías avanzadas
-- B) Utilizar arquitecturas sin servidor (Serverless)
-- C) Experimentar más a menudo
-- D) Simpatía mecánica
+### Pregunta 23
+¿Qué principio del pilar de Eficiencia del rendimiento alienta el uso de tecnologías administradas y arquitecturas sin servidor (Serverless)?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El principio de **utilizar arquitecturas sin servidor** elimina la carga operativa de gestionar y mantener servidores, permitiendo centrarse en la lógica de negocio con mayor rendimiento.
+- [ ] A. Democratizar tecnologías avanzadas  
+- [ ] B. Utilizar arquitecturas sin servidor  
+- [ ] C. Experimentar más a menudo  
+- [ ] D. Usar únicamente infraestructura como servicio (IaaS)  
 
 ---
 
-### Pregunta 26 (Opción múltiple)
-¿Qué pilar incluye el principio de "Habilitar la trazabilidad" mediante la integración de logs y métricas con CloudTrail y CloudWatch?
-- A) Seguridad
-- B) Sostenibilidad
-- C) Optimización de costos
-- D) Eficiencia del rendimiento
+### Pregunta 24 (SELECCIONA DOS)
+¿Cuáles de los siguientes son pilares oficiales del AWS Well-Architected Framework?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-Integrar registros, monitoreo y auditorías automáticas (trazabilidad) para responder a eventos es un principio fundamental del pilar de Seguridad.
+- [ ] A. Excelencia operativa  
+- [ ] B. Portabilidad de código  
+- [ ] C. Sostenibilidad  
+- [ ] D. Centralización de bases de datos  
+- [ ] E. Cero latencia  
 
 ---
 
-### Pregunta 27 (Opción múltiple)
-¿Qué concepto promueve que los servidores en la nube deben ser tratados como recursos temporales y fácilmente reemplazables mediante scripts de automatización?
-- A) Servicios, no servidores
-- B) Recursos desechables (Disposable resources)
-- C) Acoplamiento monolítico
-- D) Replicación síncrona
+### Pregunta 25 (SELECCIONA DOS)
+¿Cuáles representan principios de diseño del pilar de Optimización de costos?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-Tratar a los servidores como **recursos desechables** implica que cualquier instancia puede destruirse y reconstruirse automáticamente de forma consistente mediante código.
+- [ ] A. Adoptar un modo de consumo.  
+- [ ] B. Asignar siempre el tamaño máximo de servidor por precaución.  
+- [ ] C. Analizar y atribuir el gasto mediante etiquetas (Cost Allocation Tags).  
+- [ ] D. Mantener servidores encendidos 24/7 sin importar el tráfico.  
+- [ ] E. Desactivar la facturación unificada en AWS Organizations.  
 
 ---
 
-### Pregunta 28 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles de los siguientes son pilares del AWS Well-Architected Framework? (Selecciona dos)
-- A) Disponibilidad continua
-- B) Excelencia operativa
-- C) Portabilidad de licencias
-- D) Sostenibilidad
-- E) Transparencia financiera total
+### Pregunta 26 (SELECCIONA DOS)
+¿Qué prácticas contribuyen al pilar de Fiabilidad en AWS?
 
-**Respuestas correctas:** B y D
-
-**Explicación breve:**
-Los 6 pilares son: Excelencia Operativa, Seguridad, Fiabilidad, Eficiencia del Rendimiento, Optimización de Costos y Sostenibilidad.
-
----
-
-### Pregunta 29 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles de las siguientes opciones representan principios de diseño del pilar de Optimización de costos? (Selecciona dos)
-- A) Adoptar un modo de consumo.
-- B) Escalar siempre de forma vertical.
-- C) Analizar y atribuir el gasto mediante etiquetas (tags).
-- D) Mantener todas las instancias en tamaño máximo por prevención.
-- E) Desactivar las métricas de monitoreo de CloudWatch.
-
-**Respuestas correctas:** A y C
-
-**Explicación breve:**
-El pilar de Optimización de costos recomienda pagar solo por lo que se usa (A) y categorizar los gastos mediante etiquetas para medir el retorno de inversión (C).
-
----
-
-### Pregunta 30 (Respuesta múltiple - SELECCIONA DOS)
-¿Qué prácticas contribuyen al pilar de Fiabilidad en AWS? (Selecciona dos)
-- A) Probar los procedimientos de recuperación ante fallas mediante simulaciones.
-- B) Utilizar una única Zona de Disponibilidad para centralizar datos.
-- C) Escalar horizontalmente para aumentar la disponibilidad agregada.
-- D) Guardar credenciales de acceso directo en el código fuente.
-- E) Desactivar las copias de seguridad automáticas para ahorrar ancho de banda.
-
-**Respuestas correctas:** A y C
-
-**Explicación breve:**
-Probar la recuperación simulando fallas y escalar horizontalmente añadiendo nodos distribuidos refuerzan la fiabilidad y resiliencia de los sistemas.
+- [ ] A. Probar los procedimientos de recuperación ante fallas mediante simulaciones.  
+- [ ] B. Desplegar los recursos en una sola Zona de Disponibilidad.  
+- [ ] C. Escalar horizontalmente para aumentar la disponibilidad del sistema.  
+- [ ] D. Almacenar credenciales maestras dentro del código de la aplicación.  
+- [ ] E. Desactivar las copias de seguridad automáticas.  
 
 ---
 
 ## 1.3 Estrategias de migración (AWS CAF)
 
-### Pregunta 31 (Opción múltiple)
-¿Cuál es el propósito principal del AWS Cloud Adoption Framework (AWS CAF)?
-- A) Reemplazar la necesidad de contratar ingenieros de software.
-- B) Ayudar a las organizaciones a construir y ejecutar un plan integral para su transformación digital en la nube.
-- C) Generar presupuestos automáticos de facturación consolidada.
-- D) Auditar únicamente el código fuente de aplicaciones Python.
+### Pregunta 27
+¿Cuál es el propósito del marco AWS Cloud Adoption Framework (AWS CAF)?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El **AWS CAF** identifica capacidades organizativas específicas y ofrece mejores prácticas para ayudar a las empresas a planificar y ejecutar con éxito su transformación digital.
+- [ ] A. Crear un plan integral para la transformación digital en la nube identificando capacidades organizativas.  
+- [ ] B. Proporcionar un compilador de código automático para aplicaciones web.  
+- [ ] C. Sustituir los contratos de soporte técnico de AWS.  
+- [ ] D. Automatizar la facturación consolidada entre empresas rivales.  
 
 ---
 
-### Pregunta 32 (Opción múltiple)
-¿Cuántas perspectivas organizacionales agrupa el marco AWS Cloud Adoption Framework (AWS CAF)?
-- A) 4
-- B) 5
-- C) 6
-- D) 8
+### Pregunta 28
+¿Cuántas perspectivas organizacionales componen el marco AWS CAF?
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-El AWS CAF organiza sus capacidades en **6 perspectivas**: Negocio, Personas, Gobernanza, Plataforma, Seguridad y Operaciones.
+- [ ] A. 4  
+- [ ] B. 6  
+- [ ] C. 8  
+- [ ] D. 12  
 
 ---
 
-### Pregunta 33 (Opción múltiple)
-¿Qué perspectiva del AWS CAF se enfoca en la arquitectura de datos, la ingeniería de plataforma y el aprovisionamiento de componentes de infraestructura tecnológica?
-- A) Gobernanza
-- B) Plataforma
-- C) Personas
-- D) Negocio
+### Pregunta 29
+¿Qué perspectiva del AWS CAF abarca la arquitectura de tecnología, el aprovisionamiento de infraestructura y la ingeniería de datos?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-La perspectiva de **Plataforma** (*Platform*) abarca las capacidades técnicas como la arquitectura de solución, provisión de cómputo, almacenamiento, redes y bases de datos.
+- [ ] A. Gobernanza  
+- [ ] B. Plataforma  
+- [ ] C. Personas  
+- [ ] D. Negocio  
 
 ---
 
-### Pregunta 34 (Opción múltiple)
-Una empresa necesita migrar petabytes de datos locales hacia Amazon S3, pero su conexión a Internet tiene un ancho de banda muy limitado. ¿Qué servicio físico de AWS es el más adecuado?
-- A) AWS Direct Connect
-- B) AWS Snowball
-- C) AWS Application Migration Service
-- D) Amazon Storage Gateway
+### Pregunta 30
+Una empresa necesita migrar petabytes de datos locales hacia Amazon S3, pero su velocidad de Internet es muy lenta. ¿Qué dispositivo físico de AWS es el adecuado para este traslado?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-**AWS Snowball** es un dispositivo físico seguro de almacenamiento que permite transferir grandes volúmenes de datos (petabytes) hacia y desde AWS de forma física, eludiendo las limitaciones de ancho de banda de red.
+- [ ] A. AWS Direct Connect  
+- [ ] B. AWS Snowball  
+- [ ] C. AWS Application Migration Service  
+- [ ] D. Amazon Storage Gateway  
 
 ---
 
-### Pregunta 35 (Opción múltiple)
-¿Qué servicio de AWS facilita la migración de bases de datos relacionales o NoSQL hacia AWS de forma continua y con un tiempo de inactividad mínimo?
-- A) AWS DMS (Database Migration Service)
-- B) AWS Snowcone
-- C) AWS Artifact
-- D) AWS Glue
+### Pregunta 31
+¿Qué servicio de AWS permite migrar bases de datos hacia AWS de forma rápida y segura, manteniendo la base de datos de origen operativa durante el proceso?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-**AWS DMS** permite migrar bases de datos hacia AWS rápidamente y de forma segura, manteniendo la base de datos de origen funcional durante la migración para minimizar el impacto en las aplicaciones.
+- [ ] A. AWS DMS (Database Migration Service)  
+- [ ] B. AWS Artifact  
+- [ ] C. AWS Snowcone  
+- [ ] D. AWS Glue  
 
 ---
 
-### Pregunta 36 (Opción múltiple)
-¿Qué perspectiva del AWS CAF ayuda a garantizar que los servicios en la nube se presten satisfaciendo las necesidades del negocio mediante la observabilidad y gestión de incidentes?
-- A) Operaciones
-- B) Negocio
-- C) Personas
-- D) Plataforma
+### Pregunta 32
+¿Qué perspectiva del AWS CAF se enfoca en el monitoreo, la salud del sistema y la gestión de incidentes operativos?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-La perspectiva de **Operaciones** (*Operations*) se enfoca en mantener, monitorear y operar los servicios en la nube para garantizar que se cumplan los niveles de servicio acordados.
+- [ ] A. Operaciones  
+- [ ] B. Negocio  
+- [ ] C. Personas  
+- [ ] D. Gobernanza  
 
 ---
 
-### Pregunta 37 (Opción múltiple)
-En las fases de transformación del AWS CAF, ¿qué fase se centra en construir iniciativas piloto en producción para demostrar valor de negocio incremental?
-- A) Envision
-- B) Align
-- C) Launch
-- D) Scale
+### Pregunta 33
+¿Qué fase de transformación del AWS CAF se centra en entregar proyectos piloto en producción para demostrar valor de negocio incremental?
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-La fase **Launch** busca crear y entregar proyectos piloto o pruebas de concepto en producción que demuestren beneficios tangibles para el negocio.
+- [ ] A. Envision  
+- [ ] B. Align  
+- [ ] C. Launch  
+- [ ] D. Scale  
 
 ---
 
-### Pregunta 38 (Opción múltiple)
-¿Qué estrategia de migración (de las 6 R's) implica trasladar aplicaciones a la nube sin realizar cambios en su arquitectura ("Lift and Shift")?
-- A) Rehost
-- B) Refactor
-- C) Repurchase
-- D) Retain
+### Pregunta 34
+¿Qué estrategia de migración (de las 6 R's) consiste en mover aplicaciones a la nube sin realizar modificaciones en su código o arquitectura ("Lift and Shift")?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-**Rehost** (también conocida como "Lift and Shift") consiste en migrar aplicaciones tal como están hacia instancias de la nube sin realizar optimizaciones ni cambios de código.
+- [ ] A. Rehost  
+- [ ] B. Refactor  
+- [ ] C. Repurchase  
+- [ ] D. Retain  
 
 ---
 
-### Pregunta 39 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles de las siguientes corresponden a perspectivas dentro del marco AWS Cloud Adoption Framework (AWS CAF)? (Selecciona dos)
-- A) Gobernanza
-- B) Almacenamiento
-- C) Personas
-- D) Redes
-- E) Cómputo
+### Pregunta 35
+¿Qué estrategia de migración implica reemplazar un sistema existente por un producto de software como servicio (SaaS) comercial?
 
-**Respuestas correctas:** A y C
-
-**Explicación breve:**
-Las 6 perspectivas del CAF son: Negocio, Personas, Gobernanza, Plataforma, Seguridad y Operaciones.
+- [ ] A. Replatform  
+- [ ] B. Repurchase  
+- [ ] C. Rehost  
+- [ ] D. Retire  
 
 ---
 
-### Pregunta 40 (Respuesta múltiple - SELECCIONA DOS)
-¿Qué herramientas o servicios de AWS facilitan el proceso de migración de datos y servidores desde entornos On-Premises hacia AWS? (Selecciona dos)
-- A) AWS Snowball
-- B) Amazon Route 53
-- C) AWS Database Migration Service (AWS DMS)
-- D) Amazon QuickSight
-- E) AWS CodeDeploy
+### Pregunta 36
+¿Qué perspectiva del AWS CAF aborda la gestión de cambios, la capacitación del personal y el desarrollo de habilidades técnicas en la organización?
 
-**Respuestas correctas:** A y C
+- [ ] A. Personas  
+- [ ] B. Plataforma  
+- [ ] C. Seguridad  
+- [ ] D. Negocio  
 
-**Explicación breve:**
-AWS Snowball (A) permite mover volúmenes masivos de archivos físicamente, mientras que AWS DMS (C) migra bases de datos con replicación continua.
+---
+
+### Pregunta 37 (SELECCIONA DOS)
+¿Cuáles de las siguientes corresponden a perspectivas del marco AWS CAF?
+
+- [ ] A. Gobernanza  
+- [ ] B. Almacenamiento  
+- [ ] C. Seguridad  
+- [ ] D. Conectividad  
+- [ ] E. Microservicios  
+
+---
+
+### Pregunta 38 (SELECCIONA DOS)
+¿Qué servicios o dispositivos de AWS ayudan directamente en los procesos de migración física y lógica de datos hacia la nube?
+
+- [ ] A. AWS Snowball  
+- [ ] B. Amazon Route 53  
+- [ ] C. AWS Database Migration Service (AWS DMS)  
+- [ ] D. Amazon QuickSight  
+- [ ] E. AWS IAM  
 
 ---
 
 ## 1.4 Economía de la nube
 
-### Pregunta 41 (Opción múltiple)
-¿Qué herramienta web gratuita de AWS permite a los usuarios modelar y estimar el costo total de una solución antes de construirla o desplegarla?
-- A) AWS Cost Explorer
-- B) AWS Pricing Calculator
-- C) AWS Budgets
-- D) AWS Billing Dashboard
+### Pregunta 39
+¿Qué herramienta web gratuita de AWS permite modelar y calcular el costo estimado de una arquitectura antes de construirla o desplegarla?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-La **AWS Pricing Calculator** es una herramienta interactiva que permite calcular estimaciones de costos mensuales para arquitecturas hipotéticas en AWS antes de crear los recursos.
+- [ ] A. AWS Cost Explorer  
+- [ ] B. AWS Pricing Calculator  
+- [ ] C. AWS Budgets  
+- [ ] D. AWS Billing Dashboard  
 
 ---
 
-### Pregunta 42 (Opción múltiple)
-¿Qué proceso consiste en analizar las instancias EC2 activas para ajustar su tamaño al tipo y capacidad mínima requerida sin comprometer el rendimiento?
-- A) Replicación geográfica
-- B) Dimensionamiento correcto (Right-sizing)
-- C) Acoplamiento rígido
-- D) Desacoplamiento Serverless
+### Pregunta 40
+¿Qué proceso consiste en ajustar el tamaño y tipo de las instancias EC2 activas a la capacidad mínima requerida para cubrir la demanda al menor costo?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El **dimensionamiento correcto** (*Right-sizing*) es el proceso de adecuar los tipos y tamaños de recursos a los requisitos reales de rendimiento al menor costo posible.
+- [ ] A. Dimensionamiento correcto (Right-sizing)  
+- [ ] B. Replicación entre AZs  
+- [ ] C. Acoplamiento rígido  
+- [ ] D. Escalado de base de datos  
 
 ---
 
-### Pregunta 43 (Opción múltiple)
-¿Qué servicio de AWS utiliza aprendizaje automático para analizar métricas de uso de CloudWatch y recomendar la configuración óptima para reducir costos hasta un 25%?
-- A) AWS Compute Optimizer
-- B) AWS Trusted Advisor
-- C) AWS Pricing Calculator
-- D) AWS Service Catalog
+### Pregunta 41
+¿Qué servicio de AWS utiliza aprendizaje automático para analizar métricas de CloudWatch y recomendar optimizaciones de tamaño en instancias EC2, EBS y Lambda?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-**AWS Compute Optimizer** analiza métricas históricas de rendimiento en CloudWatch con Machine Learning para recomendar configuraciones y tamaños ideales de instancias EC2, volúmenes EBS y Lambda.
+- [ ] A. AWS Compute Optimizer  
+- [ ] B. AWS Trusted Advisor  
+- [ ] C. AWS Pricing Calculator  
+- [ ] D. AWS Service Catalog  
 
 ---
 
-### Pregunta 44 (Opción múltiple)
-¿Qué modelo de licencia de software permite a los clientes trasladar sus licencias preexistentes On-Premises hacia instancias en la nube de AWS?
-- A) Pay-as-you-go
-- B) Bring Your Own License (BYOL)
-- C) License On-Demand
-- D) Open Source Free
+### Pregunta 42
+¿Qué opción permite a los clientes trasladar sus licencias de software comerciales existentes (como Windows Server u Oracle) para ejecutarlas en AWS?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-El modelo **BYOL** (*Bring Your Own License*) permite reutilizar licencias de software existentes del cliente (como Windows Server o SQL Server) en instancias de AWS (como Dedicated Hosts), optimizando costos.
+- [ ] A. Bring Your Own License (BYOL)  
+- [ ] B. Elastic License Sharing  
+- [ ] C. Pay-as-you-go Free  
+- [ ] D. Software Open Access  
 
 ---
 
-### Pregunta 45 (Opción múltiple)
-¿Qué sucede con los costos unitarios de procesamiento e infraestructura en AWS a medida que aumenta la adopción masiva por parte de millones de clientes?
-- A) Aumentan para compensar el uso de ancho de banda.
-- B) Permanecen estáticos e inmutables por norma legal.
-- C) Disminuyen debido a las economías de escala masivas que logra AWS.
-- D) Se vuelven impredecibles mes con mes.
+### Pregunta 43
+¿Qué sucede con los costos operativos unitarios a medida que la escala de uso de AWS aumenta para millones de clientes?
 
-**Respuesta correcta:** C
-
-**Explicación breve:**
-A medida que AWS escala su infraestructura global para millones de usuarios, obtiene eficiencias operativas que le permiten reducir periódicamente los precios de sus servicios.
+- [ ] A. Aumentan por mayor congestión de red.  
+- [ ] B. Se mantienen inmutables por contrato.  
+- [ ] C. Disminuyen debido a las economías de escala masivas que logra AWS.  
+- [ ] D. Se vuelven variables sin transparencia.  
 
 ---
 
-### Pregunta 46 (Opción múltiple)
-¿Cuál de los siguientes es un costo variable típico en la economía de la nube de AWS?
-- A) Compra de racks y gabinetes para data centers.
-- B) Pago por la cantidad de gigabytes transferidos hacia fuera de la nube (Data Transfer OUT).
-- C) Contratos de arrendamiento a 10 años para edificios físicos.
-- D) Salarios fijos del personal de mantenimiento de generadores eléctricos de AWS.
+### Pregunta 44
+¿Cuál de los siguientes es un costo variable típico en el modelo de pagos de AWS?
 
-**Respuesta correcta:** B
-
-**Explicación breve:**
-En AWS, la transferencia de datos hacia afuera (*Data Transfer OUT*) se cobra de forma variable según los gigabytes reales consumidos cada mes.
+- [ ] A. Transferencia de datos saliente hacia Internet (Data Transfer OUT)  
+- [ ] B. Adquisición de gabinetes y racks de servidores  
+- [ ] C. Pago de alquiler de terrenos para data centers  
+- [ ] D. Salario del equipo de mantenimiento de aire acondicionado de AWS  
 
 ---
 
-### Pregunta 47 (Opción múltiple)
-¿Qué práctica financiera permite etiquetar recursos con valores como "CentroDeCostos" o "Proyecto" para atribuir y desglosar el gasto detalladamente?
-- A) Etiquetas de asignación de costos (Cost Allocation Tags)
-- B) Certificados SSL en ACM
-- C) Reglas de grupos de seguridad
-- D) Tablas de ruteo de VPC
+### Pregunta 45
+¿Qué práctica organizativa permite asignar etiquetas (tags) con valores como "Proyecto" o "CentroDeCostos" para analizar la facturación detallada?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-Las **etiquetas de asignación de costos** (*Cost Allocation Tags*) permiten organizar y realizar un seguimiento preciso de los cargos de AWS por proyectos, departamentos o entornos en los informes financieros.
+- [ ] A. Etiquetas de asignación de costos (Cost Allocation Tags)  
+- [ ] B. Certificados SSL de ACM  
+- [ ] C. Reglas de VPC Peering  
+- [ ] D. Grupos de seguridad  
 
 ---
 
-### Pregunta 48 (Opción múltiple)
-¿Qué herramienta de AWS permite visualizar el historial de costos actual con filtros detallados y proyectar los gastos futuros a 12 meses?
-- A) AWS Cost Explorer
-- B) AWS Pricing Calculator
-- C) AWS Service Quotas
-- D) AWS Organizations
+### Pregunta 46
+¿Qué herramienta de facturación de AWS permite visualizar gráficos con el historial de gastos pasados y realizar proyecciones de gasto futuro a 12 meses?
 
-**Respuesta correcta:** A
-
-**Explicación breve:**
-**AWS Cost Explorer** ofrece una interfaz gráfica para analizar patrones de gasto pasados, filtrar el uso y generar pronósticos de costos futuros.
+- [ ] A. AWS Cost Explorer  
+- [ ] B. AWS Pricing Calculator  
+- [ ] C. AWS Service Quotas  
+- [ ] D. AWS Organizations  
 
 ---
 
-### Pregunta 49 (Respuesta múltiple - SELECCIONA DOS)
-¿Qué herramientas de AWS apoyan directamente el proceso continuo de dimensionamiento correcto (*Right-sizing*) de recursos? (Selecciona dos)
-- A) AWS Compute Optimizer
-- B) AWS Trusted Advisor
-- C) AWS Artifact
-- D) AWS Shield Standard
-- E) AWS KMS
+### Pregunta 47
+¿Cuándo es más recomendable aplicar el proceso de dimensionamiento correcto (*Right-sizing*) de infraestructura?
 
-**Respuestas correctas:** A y B
-
-**Explicación breve:**
-Tanto AWS Compute Optimizer como AWS Trusted Advisor analizan recursos sobreprovisionados o subutilizados y emiten sugerencias para ajustar su tamaño.
+- [ ] A. Únicamente el primer día del año fiscal.  
+- [ ] B. Antes de migrar a la nube y de forma continua después de la incorporación.  
+- [ ] C. Solamente cuando AWS notifique un aumento de precios.  
+- [ ] D. Una vez alcanzado el límite máximo de almacenamiento en S3.  
 
 ---
 
-### Pregunta 50 (Respuesta múltiple - SELECCIONA DOS)
-¿Cuáles de las siguientes afirmaciones representan buenas prácticas para la optimización de costos en AWS? (Selecciona dos)
-- A) Iniciar siempre las arquitecturas utilizando los tipos de instancias EC2 más grandes disponibles.
-- B) Detener o eliminar recursos no utilizados en entornos de desarrollo durante horarios no laborales.
-- C) Realizar un dimensionamiento correcto (*Right-sizing*) antes y después de migrar a la nube.
-- D) Evitar el uso de etiquetas en los recursos para simplificar la consola.
-- E) Comprar siempre capacidad física fija para el máximo pico esperado a 5 años.
+### Pregunta 48
+¿Qué beneficio económico ofrecen los modelos de compromiso como Savings Plans e Instancias Reservadas frente a las tarifas bajo demanda?
 
-**Respuestas correctas:** B y C
+- [ ] A. Descuentos significativos (hasta un 66% - 72%) a cambio de un compromiso de uso por 1 o 3 años.  
+- [ ] B. Exención de cobro por consumo de almacenamiento EBS.  
+- [ ] C. Eliminación de las tarifas de soporte técnico.  
+- [ ] D. Acceso exclusivo a regiones privadas no publicadas.  
 
-**Explicación breve:**
-Automatizar la eliminación/apagado de recursos en horarios ociosos (B) y aplicar el dimensionamiento correcto antes y después de la migración (C) son estrategias clave para la eficiencia económica.
+---
+
+### Pregunta 49 (SELECCIONA DOS)
+¿Qué herramientas de AWS analizan recursos y emiten recomendaciones para el dimensionamiento correcto y reducción de costos?
+
+- [ ] A. AWS Compute Optimizer  
+- [ ] B. AWS Trusted Advisor  
+- [ ] C. AWS KMS  
+- [ ] D. AWS Shield  
+- [ ] E. AWS CloudTrail  
+
+---
+
+### Pregunta 50 (SELECCIONA DOS)
+¿Cuáles son buenas prácticas para la optimización continua de costos en AWS?
+
+- [ ] A. Apagar o eliminar automáticamente recursos no utilizados en entornos de desarrollo fuera de horario laboral.  
+- [ ] B. Iniciar siempre con el tipo de instancia EC2 más grande disponible por precaución.  
+- [ ] C. Aplicar un dimensionamiento correcto (*Right-sizing*) continuo sobre las cargas de trabajo.  
+- [ ] D. Evitar el uso de etiquetas para no complicar el informe de facturación.  
+- [ ] E. Comprar siempre capacidad física fija proyectada a 5 años.  
+
+---
+
+## Respuestas y Explicaciones
+
+1. **A → Volverse global en minutos.** La ventaja "Go global in minutes" permite desplegar infraestructura en múltiples Regiones de AWS mundialmente con unos clics, reduciendo la latencia física hacia los usuarios.  
+2. **C → Elasticidad.** La elasticidad es la capacidad dinámica de reducir o aumentar recursos automáticamente para coincidir con la demanda medida en tiempo real.  
+3. **B → Pagar únicamente por recursos consumidos.** Sustituir CapEx por OpEx elimina las inversiones iniciales en hardware y centros de datos físicos, pagando solo por el consumo variable.  
+4. **B → Aumentar la velocidad y la agilidad.** Al reducir el tiempo para obtener recursos tecnológicos de semanas a minutos, los equipos pueden experimentar e innovar con mayor rapidez.  
+5. **A → Dejar de gastar dinero en mantenimiento de data centers.** AWS asume la propiedad, energía, refrigeración y mantenimiento de los centros de datos físicos.  
+6. **B → Escalar elásticamente según el uso real.** Se elimina la adivinación de capacidad porque la infraestructura crece o decrece automáticamente con la demanda.  
+7. **B → Aislamiento físico independiente.** Cada Zona de Disponibilidad (AZ) está compuesta por uno o varios data centers discretos con alimentación, enfriamiento y conectividad independientes para mitigar fallas en cascada.  
+8. **B → Nube híbrida.** El modelo híbrido integra servidores locales (On-Premises) con la nube pública de AWS para extender capacidades con flexibilidad.  
+9. **B → Servir contenido en caché.** Las Edge Locations forman la red de entrega de contenido (CDN via CloudFront) para servir datos con menor latencia cerca de los usuarios.  
+10. **A → Economías de escala masivas.** Al concentrar cientos de miles de clientes, AWS logra eficiencias operativas que reducen los costos unitarios de sus servicios.  
+11. **B, C → Economías de escala y cambio de CapEx a OpEx.** Son dos de las 6 ventajas principales de la nube de AWS.  
+12. **A, C → Data centers discretos y red de alta velocidad.** Las AZs consisten en data centers aislados interconectados por fibra óptica de latencia ultrabaja.  
+13. **A, C → Cómputo y Almacenamiento.** Cómputo, Almacenamiento y Transferencia de datos SALIENTE constituyen los 3 fundamentos de precios de pago por uso en AWS.  
+14. **C → Optimización de costos.** Este pilar se enfoca en ejecutar sistemas con la máxima eficiencia financiera al menor precio.  
+15. **A → Mantener a las personas alejadas de los datos.** Reducir o eliminar el acceso manual directo a los datos minimiza errores y riesgos de seguridad.  
+16. **B → AWS Well-Architected Tool.** Es la herramienta guiada en la consola que evalúa cargas de trabajo contra los 6 pilares y genera planes de mejora.  
+17. **A → Fiabilidad.** La capacidad de recuperarse ante fallas de componentes y mantener el servicio operativo corresponde al pilar de Fiabilidad.  
+18. **A → Acoplamiento débil (Loose coupling).** Dividir aplicaciones monolíticas en componentes desacoplados evita fallas en cascada.  
+19. **B → Sostenibilidad.** Este pilar aborda la reducción del consumo energético y la huella ecológica de las cargas de trabajo en la nube.  
+20. **A → Realizar operaciones como código.** Definir la infraestructura mediante plantillas (ej. CloudFormation) automatiza operaciones y reduce errores.  
+21. **B → AWS IAM.** IAM gestiona usuarios, roles y credenciales aplicando el principio de menor privilegio, clave en el pilar de Seguridad.  
+22. **B → Sostenibilidad.** Utilizar procesadores eficientes (Graviton) y autoescalado para eliminar recursos ociosos reduce el gasto energético.  
+23. **B → Utilizar arquitecturas sin servidor.** Usar servicios administrados y Serverless delega la gestión de servidores y mantiene la eficiencia.  
+24. **A, C → Excelencia operativa y Sostenibilidad.** Forman parte de los 6 pilares oficiales del Well-Architected Framework.  
+25. **A, C → Modo de consumo y etiquetado de gasto.** Son principios clave para pagar solo por uso y medir el retorno de inversión con etiquetas.  
+26. **A, C → Probar recuperación y escalar horizontalmente.** Probar fallas mediante simulaciones y distribuir la carga entre varios nodos fortalecen la fiabilidad.  
+27. **A → Plan integral para transformación digital.** AWS CAF identifica capacidades organizativas para estructurar la adopción exitosa de la nube.  
+28. **B → 6 perspectivas.** AWS CAF agrupa sus capacidades en 6 perspectivas: Negocio, Personas, Gobernanza, Plataforma, Seguridad y Operaciones.  
+29. **B → Plataforma.** La perspectiva de Plataforma incluye arquitectura tecnológica, infraestructura, almacenamiento y bases de datos.  
+30. **B → AWS Snowball.** Es un dispositivo físico seguro para transferir volúmenes masivos de datos (petabytes) eludiendo limitaciones de red.  
+31. **A → AWS DMS.** Permite migrar bases de datos de forma continua y segura manteniendo el origen activo.  
+32. **A → Operaciones.** La perspectiva de Operaciones abarca la gestión del día a día, monitoreo, salud y continuidad de los servicios.  
+33. **C → Launch.** La fase Launch entrega proyectos piloto en producción para demostrar valor de negocio incremental.  
+34. **A → Rehost.** Rehost ("Lift and Shift") traslada aplicaciones a la nube sin realizar modificaciones en su arquitectura.  
+35. **B → Repurchase.** Repurchase implica reemplazar una aplicación existente por un producto SaaS comercial.  
+36. **A → Personas.** La perspectiva de Personas aborda la evolución cultural, estructura organizacional, capacitación y desarrollo de habilidades.  
+37. **A, C → Gobernanza y Seguridad.** Son dos de las 6 perspectivas organizacionales oficiales del AWS CAF.  
+38. **A, C → AWS Snowball y AWS DMS.** Snowball permite migración física de archivos y DMS migra bases de datos con replicación continua.  
+39. **B → AWS Pricing Calculator.** Herramienta web pública interactiva para estimar el costo de arquitecturas hipotéticas antes de desplegarlas.  
+40. **A → Dimensionamiento correcto (Right-sizing).** Proceso de adecuar recursos al tamaño y capacidad mínima requerida para reducir costos sin perder rendimiento.  
+41. **A → AWS Compute Optimizer.** Utiliza Machine Learning y métricas de CloudWatch para recomendar optimizaciones de tamaño.  
+42. **A → Bring Your Own License (BYOL).** Permite reutilizar licencias comerciales preexistentes en la nube de AWS para ahorrar costos de software.  
+43. **C → Disminuyen por economías de escala.** La masiva escala global de AWS permite reducir costos operativos que se trasladan en menores precios.  
+44. **A → Transferencia de datos saliente (Data Transfer OUT).** Se cobra de forma variable según los gigabytes reales transferidos hacia fuera de AWS.  
+45. **A → Etiquetas de asignación de costos (Cost Allocation Tags).** Permiten categorizar y desglosar el gasto por centro de costo o proyecto.  
+46. **A → AWS Cost Explorer.** Visualiza gráficos detallados de costos pasados y genera proyecciones de gasto a 12 meses.  
+47. **B → Antes y continuamente después de migrar.** El dimensionamiento correcto debe aplicarse antes de la migración y de forma continua en producción.  
+48. **A → Descuentos significativos (hasta 66%-72%).** Ofrecen reducciones sustanciales de precio a cambio de comprometer uso a 1 o 3 años.  
+49. **A, B → AWS Compute Optimizer y AWS Trusted Advisor.** Ambas herramientas analizan configuraciones de recursos y recomiendan ajustes de tamaño y optimización.  
+50. **A, C → Apagado automático fuera de horario y Right-sizing continuo.** Apagar entornos de dev inactivos y ajustar tamaños de recursos continuamente reduce costos significativamente.
+
+---
+
+🎯 **Siguiente paso sugerido:** ¿Te gustaría que generemos una guía de estudio con preguntas de práctica enfocadas en el **Módulo 2: Seguridad y cumplimiento** o prefieres un simulacro de examen general para la certificación CLF-C02?
